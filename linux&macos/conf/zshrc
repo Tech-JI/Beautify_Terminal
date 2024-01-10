@@ -1,0 +1,39 @@
+# INFO: ZSH PLUGIN
+
+# Fix omz
+autoload -U +X compinit && compinit
+source <(kubectl completion zsh)
+compinit
+
+# Set up antidote
+source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
+antidote load ${ZDOTDIR:-$HOME}/.zsh_plugins.txt
+
+compinit
+
+# If you use any prompt like p10k also see antidote's website
+autoload -uz promptinit && promptinit
+
+
+
+
+# INFO: DECORATION
+
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# INFO: Alias
+
+alias ra=ranger
+alias ls='lsd --group-dirs first'
+alias tree='lsd --tree'
+alias bat='bat --theme=ansi'
+alias cat='bat --pager=never'
+alias less='bat'

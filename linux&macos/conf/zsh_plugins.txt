@@ -1,0 +1,9 @@
+ohmyzsh/ohmyzsh path:lib
+ohmyzsh/ohmyzsh path:plugins/git
+ohmyzsh/ohmyzsh path:plugins/vi-mode
+ohmyzsh/ohmyzsh path:plugins/extract
+ohmyzsh/ohmyzsh path:plugins/z
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+valentinocossar/vscode
+romkatv/powerlevel10k kind:fpath
