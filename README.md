@@ -38,6 +38,6 @@ The file organization of this repo is shown as follow
 
 ## Credit
 
-Thanks @mQzLjP and @HilariousJon for completing windows configuration and wsl configuration part. Thanks @ssanakkana for advertising on JIers.
+Thanks [@mQzLjP](https://github.com/mQzLjP) and [@HilariousJon](https://github.com/HilariousJon) for completing windows configuration and wsl configuration part. Thanks [@ssanakkana](https://github.com/ssanakkana) for advertising on JIers.
 
 My configuration is based on [this](https://drasite.com/dotfiles) configuration.
