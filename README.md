@@ -35,3 +35,9 @@ The file organization of this repo is shown as follow
     ├── Part3.powerlevel10k.md
     └── Part4.keyboard_shortcut.md
 ```
+
+## Credit
+
+Thanks @mQzLjP and @HilariousJon for completing windows configuration and wsl configuration part. Thanks @ssanakkana for advertising on JIers.
+
+My configuration is based on [this](https://drasite.com/dotfiles) configuration.
