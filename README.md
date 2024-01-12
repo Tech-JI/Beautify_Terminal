@@ -15,7 +15,18 @@ The file organization of this repo is shown as follow
 ```zsh
 .
 ├── 'Keyboard Shortcuts'
-│   └──  'Windows Terminal.md'
+│   └── 'Windows Terminal.md'
+├── linux&macos
+│   ├── conf
+│   │   ├── manclr
+│   │   ├── p10k.zsh
+│   │   ├── zsh_plugins.txt
+│   │   └── zshrc
+│   ├── 'Part 1 - Intro.md'
+│   ├── 'Part 2 - colorscheme.md'
+│   ├── 'Part 3 - package manager.md'
+│   ├── 'Part 4 - p10k setting.md'
+│   └── 'Part 5 - misc.md'
 ├── outline.md
 ├── plug_mgr.md
 ├── README.md
@@ -26,7 +37,7 @@ The file organization of this repo is shown as follow
 │   │   ├── 'Part 2 - Font.md'
 │   │   ├── 'Part 3 - Changing Prompt.md'
 │   │   ├── 'Part 4 - Theme.md'
-│   │   ├── 'Part5 - Advanced.md'
+│   │   ├── 'Part 5 - Advanced.md'
 │   │   └── sample_profile.txt
 │   └── 'Windows Terminal Config Guide.md'
 └── wsl_conf
