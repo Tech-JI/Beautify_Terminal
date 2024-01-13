@@ -2,7 +2,7 @@
 
 For this part, I will show you the demo with `antidote` and `omz`.
 
-Though we know that `omz` is a very user-friendly frame, it might be too heavy and lead to low efficiency. Moreover, it is not a package manager actual. So I will my plugin manager `antodote` which is light weight, fast but powerful.
+Though we know that `omz` is a very user-friendly frame, it might be too heavy and lead to low efficiency. Moreover, it is not a package manager actually. So I will my plugin manager `antidote` which is light weight, fast but powerful.
 
 ## Install
 
@@ -11,10 +11,9 @@ See the [repo](https://github.com/mattmc3/antidote) and [official web](https://g
 ## Config
 
 - See `conf` directory, add `autoload -uz promptinit && promptinit` if you use plugin provide prompt like `p10k` or `pure`.
-- Use command `vi ~/.zshrc` and add following line to your `.zshrc` (If you meet problem,  [see](https://stackoverflow.com/questions/11828270/how-do-i-exit-vim))
+- Use command `vi ~/.zshrc` and add following line to your `.zshrc` (If you meet problem like failing to insert or save and quit, [see](https://stackoverflow.com/questions/11828270/how-do-i-exit-vim))
 
   ```bash
-
   # Set up antidote
   #linux
   source ${ZDOTDIR:-~}/.antidote/antidote.zsh
@@ -29,7 +28,7 @@ See the [repo](https://github.com/mattmc3/antidote) and [official web](https://g
 
 - If you use latest version `omz`, you can refer to the sample config to fix `compdef not found` problem.
 
-- For recommended plugin, see sample config, `zsh-syntax-highlighting` and `zsh-autosuggestions` is a must. `z` is also strongly recommended to fulfill fast switching your path. `extract` is a unpack plugin. `vscode` and `vi-mode` is recommended to `vscode` user and `vim` user (if you are not a vim user, I still strongly recommend it).
+- For recommended plugin, see sample config, `zsh-syntax-highlighting` and `zsh-autosuggestions` is a must. `z` is also strongly recommended to fulfill fast switch of your path. `extract` is a unpack plugin. `vscode` and `vi-mode` is recommended to `vscode` user and `vim` user (if you are not a vim user, I still strongly recommend it).
 
 A kind reminder, if you encounter problem like `clone failed`, you may need command `git config --global http.proxy '{http or https or socks5}://127.0.0.1:{port of proxy}'`
 

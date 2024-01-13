@@ -8,6 +8,12 @@ Here is a simple demo for configuration.
 
 ![demo](./pic/demo.jpg)
 
+## Recommended Reading Order
+
+1. tty
+2. plug_mgr
+3. The configuration of your own platform
+
 ## Organization
 
 The file organization of this repo is shown as follow

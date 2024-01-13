@@ -20,8 +20,11 @@
 
 ## Install
 
-- Use the non-interactive mode with following code(if you can't clone the repo, you can simply download the zip and unpack it.
-- Go to the path with cd command
+- Use the non-interactive mode with following code (if you can't clone the repo, you can go to [github page of gogh](https://github.com/Gogh-Co/Gogh) simply download the zip and unpack it.)
+
+  ![download zip](../pic/gogh.jpg)
+
+- Go to the path with `cd` command
 
   For example, for you the unpacked file names `gogh` and in the folder `Downloads`, you can run command `cd ~/Downloads/gogh/installs&&./"replace this with the name of color scheme"`
 
@@ -47,4 +50,4 @@
   ./dracula.sh
   ```
 
-Now the color scheme is successfully installed. View the change in your terminal now! (For my color scheme, I use `flat-remix`). For `iTerm2` user, see [misc](./Part 5 - misc.md) and change your color theme.
+Now the color scheme is successfully installed. View the change in your terminal now! (For my color scheme, I use `flat-remix`). For `iTerm2` user, see [misc](./Part%205%20-%20misc.md) and change your color theme.

@@ -20,4 +20,4 @@
 
 ## Powerlevel10k Configuration
 
-Powerlevel10k is a Zsh theme that provides many configuration options to customize the appearance of your prompt. You can set these options in your `.zshrc` file. For example, you can set `POWERLEVEL9K_LEFT_PROMPT_ELEMENTS` and `POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS` to change the elements of the left and right prompts.
+Powerlevel10k is a Zsh theme that provides many configuration options to customize the appearance of your prompt. You can set these options in your `.zshrc` file. For example, you can set `POWERLEVEL9K_LEFT_PROMPT_ELEMENTS` and `POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS` to change the elements of the left and right prompts. **For detailed configuration, you can see linux and macos part's sample config.**
